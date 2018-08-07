@@ -6,7 +6,8 @@ ext {
             common: [
                     "org.springframework.boot:spring-boot-starter-web:${versions.springBootVersion}",
                     "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBootVersion}",
-                    "org.apache.commons:commons-lang3:3.5"
+                    "org.apache.commons:commons-lang3:3.5",
+                    "org.projectlombok:lombok:1.18.2"
             ],
             mysql : [
                     "mysql:mysql-connector-java:5.1.29"
